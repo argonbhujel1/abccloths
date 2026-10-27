@@ -1,0 +1,79 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/siteadmin/(.*)",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/siteadmin",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/css/(.*)",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/js/(.*)",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/assets/(.*)",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/shop",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/shop.html",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/product",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/product.html",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/checkout",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/checkout.html",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/contact",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/teams",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/teams.html",
+      "destination": "/api/index"
+    }
+  ],
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 30,
+      "memory": 1024,
+      "includeFiles": "{api/public/**,api/templates/**,api/fallback_catalog.json,api/category-tree.json,public/**,templates/**}"
+    }
+  }
+}

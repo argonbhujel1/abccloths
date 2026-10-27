@@ -1,0 +1,3160 @@
+[
+  {
+    "id": 9001,
+    "name": "Basic T Shirts",
+    "price": 2790,
+    "image_url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Tops & Shirts · T Shirts · Basic.",
+    "category": "men",
+    "subcategory": "tops-shirts",
+    "product_type": "t-shirts",
+    "variant": "Basic",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9002,
+    "name": "Oversized T Shirts",
+    "price": 2640,
+    "image_url": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Tops & Shirts · T Shirts · Oversized.",
+    "category": "men",
+    "subcategory": "tops-shirts",
+    "product_type": "t-shirts",
+    "variant": "Oversized",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9003,
+    "name": "Graphic T Shirts",
+    "price": 2590,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Tops & Shirts · T Shirts · Graphic.",
+    "category": "men",
+    "subcategory": "tops-shirts",
+    "product_type": "t-shirts",
+    "variant": "Graphic",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9004,
+    "name": "Polo T Shirts",
+    "price": 2690,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Tops & Shirts · T Shirts · Polo.",
+    "category": "men",
+    "subcategory": "tops-shirts",
+    "product_type": "t-shirts",
+    "variant": "Polo",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9005,
+    "name": "Formal Shirts",
+    "price": 2490,
+    "image_url": "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Tops & Shirts · Shirts · Formal.",
+    "category": "men",
+    "subcategory": "tops-shirts",
+    "product_type": "shirts",
+    "variant": "Formal",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9006,
+    "name": "Casual Shirts",
+    "price": 2790,
+    "image_url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Tops & Shirts · Shirts · Casual.",
+    "category": "men",
+    "subcategory": "tops-shirts",
+    "product_type": "shirts",
+    "variant": "Casual",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9007,
+    "name": "Printed Shirts",
+    "price": 2740,
+    "image_url": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Tops & Shirts · Shirts · Printed.",
+    "category": "men",
+    "subcategory": "tops-shirts",
+    "product_type": "shirts",
+    "variant": "Printed",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9008,
+    "name": "Linen Shirts",
+    "price": 2740,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Tops & Shirts · Shirts · Linen.",
+    "category": "men",
+    "subcategory": "tops-shirts",
+    "product_type": "shirts",
+    "variant": "Linen",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9009,
+    "name": "Crewneck Sweatshirts",
+    "price": 3190,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Tops & Shirts · Sweatshirts · Crewneck.",
+    "category": "men",
+    "subcategory": "tops-shirts",
+    "product_type": "sweatshirts",
+    "variant": "Crewneck",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9010,
+    "name": "Printed Sweatshirts",
+    "price": 3140,
+    "image_url": "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Tops & Shirts · Sweatshirts · Printed.",
+    "category": "men",
+    "subcategory": "tops-shirts",
+    "product_type": "sweatshirts",
+    "variant": "Printed",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9011,
+    "name": "Slim Fit Jeans",
+    "price": 1990,
+    "image_url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Bottom Wear · Jeans · Slim Fit.",
+    "category": "men",
+    "subcategory": "bottom-wear",
+    "product_type": "jeans",
+    "variant": "Slim Fit",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "active": true
+  },
+  {
+    "id": 9012,
+    "name": "Straight Fit Jeans",
+    "price": 2290,
+    "image_url": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Bottom Wear · Jeans · Straight Fit.",
+    "category": "men",
+    "subcategory": "bottom-wear",
+    "product_type": "jeans",
+    "variant": "Straight Fit",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "active": true
+  },
+  {
+    "id": 9013,
+    "name": "Black Baggy Jeans",
+    "price": 1499,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Super Baggy Jeans - Black - Men | relaxed baggy fit denim.",
+    "category": "men",
+    "subcategory": "bottom-wear",
+    "product_type": "jeans",
+    "variant": "Baggy",
+    "colors": [
+      "Black"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "active": true
+  },
+  {
+    "id": 9014,
+    "name": "Formal Trousers",
+    "price": 2390,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Bottom Wear · Trousers · Formal.",
+    "category": "men",
+    "subcategory": "bottom-wear",
+    "product_type": "trousers",
+    "variant": "Formal",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9015,
+    "name": "Chinos Trousers",
+    "price": 2540,
+    "image_url": "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Bottom Wear · Trousers · Chinos.",
+    "category": "men",
+    "subcategory": "bottom-wear",
+    "product_type": "trousers",
+    "variant": "Chinos",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9016,
+    "name": "Linen Trousers",
+    "price": 2640,
+    "image_url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Bottom Wear · Trousers · Linen.",
+    "category": "men",
+    "subcategory": "bottom-wear",
+    "product_type": "trousers",
+    "variant": "Linen",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9017,
+    "name": "Slim Cargo Cargo Pants",
+    "price": 2540,
+    "image_url": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Bottom Wear · Cargo Pants · Slim Cargo.",
+    "category": "men",
+    "subcategory": "bottom-wear",
+    "product_type": "cargo-pants",
+    "variant": "Slim Cargo",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9018,
+    "name": "Relaxed Cargo Cargo Pants",
+    "price": 2340,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Bottom Wear · Cargo Pants · Relaxed Cargo.",
+    "category": "men",
+    "subcategory": "bottom-wear",
+    "product_type": "cargo-pants",
+    "variant": "Relaxed Cargo",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9019,
+    "name": "Denim Shorts",
+    "price": 1640,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Bottom Wear · Shorts · Denim.",
+    "category": "men",
+    "subcategory": "bottom-wear",
+    "product_type": "shorts",
+    "variant": "Denim",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9020,
+    "name": "Cotton Shorts",
+    "price": 1540,
+    "image_url": "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Bottom Wear · Shorts · Cotton.",
+    "category": "men",
+    "subcategory": "bottom-wear",
+    "product_type": "shorts",
+    "variant": "Cotton",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9021,
+    "name": "Cargo Shorts",
+    "price": 1590,
+    "image_url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Bottom Wear · Shorts · Cargo.",
+    "category": "men",
+    "subcategory": "bottom-wear",
+    "product_type": "shorts",
+    "variant": "Cargo",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9022,
+    "name": "Denim Jackets",
+    "price": 4640,
+    "image_url": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Outerwear · Jackets · Denim.",
+    "category": "men",
+    "subcategory": "outerwear",
+    "product_type": "jackets",
+    "variant": "Denim",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9023,
+    "name": "Bomber Jackets",
+    "price": 4690,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Outerwear · Jackets · Bomber.",
+    "category": "men",
+    "subcategory": "outerwear",
+    "product_type": "jackets",
+    "variant": "Bomber",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9024,
+    "name": "Puffer Jackets",
+    "price": 4490,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Outerwear · Jackets · Puffer.",
+    "category": "men",
+    "subcategory": "outerwear",
+    "product_type": "jackets",
+    "variant": "Puffer",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9025,
+    "name": "Leather Jackets",
+    "price": 4590,
+    "image_url": "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Outerwear · Jackets · Leather.",
+    "category": "men",
+    "subcategory": "outerwear",
+    "product_type": "jackets",
+    "variant": "Leather",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9026,
+    "name": "Pullover Hoodies",
+    "price": 3040,
+    "image_url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Outerwear · Hoodies · Pullover.",
+    "category": "men",
+    "subcategory": "outerwear",
+    "product_type": "hoodies",
+    "variant": "Pullover",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9027,
+    "name": "Zip-Up Hoodies",
+    "price": 3040,
+    "image_url": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Outerwear · Hoodies · Zip-Up.",
+    "category": "men",
+    "subcategory": "outerwear",
+    "product_type": "hoodies",
+    "variant": "Zip-Up",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9028,
+    "name": "Casual Blazer Blazers Suits",
+    "price": 6090,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Outerwear · Blazers Suits · Casual Blazer.",
+    "category": "men",
+    "subcategory": "outerwear",
+    "product_type": "blazers-suits",
+    "variant": "Casual Blazer",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9029,
+    "name": "Formal Suit Blazers Suits",
+    "price": 6240,
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=750&fit=crop",
+    "description": "Men's Wear · Outerwear · Blazers Suits · Formal Suit.",
+    "category": "men",
+    "subcategory": "outerwear",
+    "product_type": "blazers-suits",
+    "variant": "Formal Suit",
+    "colors": [
+      "Black",
+      "Navy",
+      "Grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9030,
+    "name": "Crop Top Tops",
+    "price": 1240,
+    "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Tops & Shirts · Tops · Crop Top.",
+    "category": "women",
+    "subcategory": "tops-shirts",
+    "product_type": "tops",
+    "variant": "Crop Top",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9031,
+    "name": "Basic Top Tops",
+    "price": 1290,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Tops & Shirts · Tops · Basic Top.",
+    "category": "women",
+    "subcategory": "tops-shirts",
+    "product_type": "tops",
+    "variant": "Basic Top",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9032,
+    "name": "Party Top Tops",
+    "price": 1490,
+    "image_url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Tops & Shirts · Tops · Party Top.",
+    "category": "women",
+    "subcategory": "tops-shirts",
+    "product_type": "tops",
+    "variant": "Party Top",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9033,
+    "name": "Basic T Shirts",
+    "price": 2790,
+    "image_url": "https://images.unsplash.com/photo-1564257631407-4deb1f99dbaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Tops & Shirts · T Shirts · Basic.",
+    "category": "women",
+    "subcategory": "tops-shirts",
+    "product_type": "t-shirts",
+    "variant": "Basic",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9034,
+    "name": "Oversized T Shirts",
+    "price": 2640,
+    "image_url": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Tops & Shirts · T Shirts · Oversized.",
+    "category": "women",
+    "subcategory": "tops-shirts",
+    "product_type": "t-shirts",
+    "variant": "Oversized",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9035,
+    "name": "Graphic T Shirts",
+    "price": 2590,
+    "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Tops & Shirts · T Shirts · Graphic.",
+    "category": "women",
+    "subcategory": "tops-shirts",
+    "product_type": "t-shirts",
+    "variant": "Graphic",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9036,
+    "name": "Casual Shirts",
+    "price": 2790,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Tops & Shirts · Shirts · Casual.",
+    "category": "women",
+    "subcategory": "tops-shirts",
+    "product_type": "shirts",
+    "variant": "Casual",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9037,
+    "name": "Formal Shirts",
+    "price": 2490,
+    "image_url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Tops & Shirts · Shirts · Formal.",
+    "category": "women",
+    "subcategory": "tops-shirts",
+    "product_type": "shirts",
+    "variant": "Formal",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9038,
+    "name": "Printed Shirts",
+    "price": 2740,
+    "image_url": "https://images.unsplash.com/photo-1564257631407-4deb1f99dbaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Tops & Shirts · Shirts · Printed.",
+    "category": "women",
+    "subcategory": "tops-shirts",
+    "product_type": "shirts",
+    "variant": "Printed",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9039,
+    "name": "Mini Casual Dresses",
+    "price": 3740,
+    "image_url": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Dresses · Casual Dresses · Mini.",
+    "category": "women",
+    "subcategory": "dresses",
+    "product_type": "casual-dresses",
+    "variant": "Mini",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9040,
+    "name": "Midi Casual Dresses",
+    "price": 3590,
+    "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Dresses · Casual Dresses · Midi.",
+    "category": "women",
+    "subcategory": "dresses",
+    "product_type": "casual-dresses",
+    "variant": "Midi",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9041,
+    "name": "Maxi Casual Dresses",
+    "price": 3490,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Dresses · Casual Dresses · Maxi.",
+    "category": "women",
+    "subcategory": "dresses",
+    "product_type": "casual-dresses",
+    "variant": "Maxi",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9042,
+    "name": "Evening Gown Party Wear",
+    "price": 3690,
+    "image_url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Dresses · Party Wear · Evening Gown.",
+    "category": "women",
+    "subcategory": "dresses",
+    "product_type": "party-wear",
+    "variant": "Evening Gown",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9043,
+    "name": "Cocktail Dress Party Wear",
+    "price": 1499,
+    "image_url": "https://images.unsplash.com/photo-1564257631407-4deb1f99dbaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Dresses · Party Wear · Cocktail Dress.",
+    "category": "women",
+    "subcategory": "dresses",
+    "product_type": "party-wear",
+    "variant": "Cocktail Dress",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9044,
+    "name": "Short Frock Frocks",
+    "price": 3690,
+    "image_url": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Dresses · Frocks · Short Frock.",
+    "category": "women",
+    "subcategory": "dresses",
+    "product_type": "frocks",
+    "variant": "Short Frock",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9045,
+    "name": "Long Frock Frocks",
+    "price": 3590,
+    "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Dresses · Frocks · Long Frock.",
+    "category": "women",
+    "subcategory": "dresses",
+    "product_type": "frocks",
+    "variant": "Long Frock",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9046,
+    "name": "Straight Kurtis",
+    "price": 2440,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Ethnic Wear · Kurtis · Straight.",
+    "category": "women",
+    "subcategory": "ethnic-wear",
+    "product_type": "kurtis",
+    "variant": "Straight",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9047,
+    "name": "A-Line Kurtis",
+    "price": 2440,
+    "image_url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Ethnic Wear · Kurtis · A-Line.",
+    "category": "women",
+    "subcategory": "ethnic-wear",
+    "product_type": "kurtis",
+    "variant": "A-Line",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9048,
+    "name": "Anarkali Kurtis",
+    "price": 2440,
+    "image_url": "https://images.unsplash.com/photo-1564257631407-4deb1f99dbaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Ethnic Wear · Kurtis · Anarkali.",
+    "category": "women",
+    "subcategory": "ethnic-wear",
+    "product_type": "kurtis",
+    "variant": "Anarkali",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9049,
+    "name": "Party Wear Sarees",
+    "price": 5990,
+    "image_url": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Ethnic Wear · Sarees · Party Wear.",
+    "category": "women",
+    "subcategory": "ethnic-wear",
+    "product_type": "sarees",
+    "variant": "Party Wear",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9050,
+    "name": "Casual Sarees",
+    "price": 6290,
+    "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Ethnic Wear · Sarees · Casual.",
+    "category": "women",
+    "subcategory": "ethnic-wear",
+    "product_type": "sarees",
+    "variant": "Casual",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9051,
+    "name": "Wedding Sarees",
+    "price": 6290,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Ethnic Wear · Sarees · Wedding.",
+    "category": "women",
+    "subcategory": "ethnic-wear",
+    "product_type": "sarees",
+    "variant": "Wedding",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9052,
+    "name": "Bridal Lehenga",
+    "price": 6090,
+    "image_url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Ethnic Wear · Lehenga · Bridal.",
+    "category": "women",
+    "subcategory": "ethnic-wear",
+    "product_type": "lehenga",
+    "variant": "Bridal",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9053,
+    "name": "Party Wear Lehenga",
+    "price": 5990,
+    "image_url": "https://images.unsplash.com/photo-1564257631407-4deb1f99dbaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Ethnic Wear · Lehenga · Party Wear.",
+    "category": "women",
+    "subcategory": "ethnic-wear",
+    "product_type": "lehenga",
+    "variant": "Party Wear",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9054,
+    "name": "Punjabi Salwar Suits",
+    "price": 6290,
+    "image_url": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Ethnic Wear · Salwar Suits · Punjabi.",
+    "category": "women",
+    "subcategory": "ethnic-wear",
+    "product_type": "salwar-suits",
+    "variant": "Punjabi",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9055,
+    "name": "Anarkali Salwar Suits",
+    "price": 6240,
+    "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Ethnic Wear · Salwar Suits · Anarkali.",
+    "category": "women",
+    "subcategory": "ethnic-wear",
+    "product_type": "salwar-suits",
+    "variant": "Anarkali",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9056,
+    "name": "Skinny Jeans",
+    "price": 2290,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Bottom Wear & Outerwear · Jeans · Skinny.",
+    "category": "women",
+    "subcategory": "bottom-outer",
+    "product_type": "jeans",
+    "variant": "Skinny",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "active": true
+  },
+  {
+    "id": 9057,
+    "name": "Straight Jeans",
+    "price": 2240,
+    "image_url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Bottom Wear & Outerwear · Jeans · Straight.",
+    "category": "women",
+    "subcategory": "bottom-outer",
+    "product_type": "jeans",
+    "variant": "Straight",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "active": true
+  },
+  {
+    "id": 9058,
+    "name": "Wide-Leg Jeans",
+    "price": 2190,
+    "image_url": "https://images.unsplash.com/photo-1564257631407-4deb1f99dbaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Bottom Wear & Outerwear · Jeans · Wide-Leg.",
+    "category": "women",
+    "subcategory": "bottom-outer",
+    "product_type": "jeans",
+    "variant": "Wide-Leg",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "active": true
+  },
+  {
+    "id": 9059,
+    "name": "Trousers Pants",
+    "price": 2540,
+    "image_url": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Bottom Wear & Outerwear · Pants · Trousers.",
+    "category": "women",
+    "subcategory": "bottom-outer",
+    "product_type": "pants",
+    "variant": "Trousers",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9060,
+    "name": "Palazzo Pants",
+    "price": 2490,
+    "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Bottom Wear & Outerwear · Pants · Palazzo.",
+    "category": "women",
+    "subcategory": "bottom-outer",
+    "product_type": "pants",
+    "variant": "Palazzo",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9061,
+    "name": "Leggings Pants",
+    "price": 2590,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Bottom Wear & Outerwear · Pants · Leggings.",
+    "category": "women",
+    "subcategory": "bottom-outer",
+    "product_type": "pants",
+    "variant": "Leggings",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9062,
+    "name": "Mini Skirts",
+    "price": 1549,
+    "image_url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Bottom Wear & Outerwear · Skirts · Mini.",
+    "category": "women",
+    "subcategory": "bottom-outer",
+    "product_type": "skirts",
+    "variant": "Mini",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9063,
+    "name": "Midi Skirts",
+    "price": 1399,
+    "image_url": "https://images.unsplash.com/photo-1564257631407-4deb1f99dbaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Bottom Wear & Outerwear · Skirts · Midi.",
+    "category": "women",
+    "subcategory": "bottom-outer",
+    "product_type": "skirts",
+    "variant": "Midi",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9064,
+    "name": "Maxi Skirts",
+    "price": 1299,
+    "image_url": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Bottom Wear & Outerwear · Skirts · Maxi.",
+    "category": "women",
+    "subcategory": "bottom-outer",
+    "product_type": "skirts",
+    "variant": "Maxi",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9065,
+    "name": "Denim Jackets",
+    "price": 4640,
+    "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Bottom Wear & Outerwear · Jackets · Denim.",
+    "category": "women",
+    "subcategory": "bottom-outer",
+    "product_type": "jackets",
+    "variant": "Denim",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9066,
+    "name": "Blazer Jackets",
+    "price": 4790,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Bottom Wear & Outerwear · Jackets · Blazer.",
+    "category": "women",
+    "subcategory": "bottom-outer",
+    "product_type": "jackets",
+    "variant": "Blazer",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9067,
+    "name": "Winter Jackets",
+    "price": 4640,
+    "image_url": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&h=750&fit=crop",
+    "description": "Women's Wear · Bottom Wear & Outerwear · Jackets · Winter.",
+    "category": "women",
+    "subcategory": "bottom-outer",
+    "product_type": "jackets",
+    "variant": "Winter",
+    "colors": [
+      "Black",
+      "Cream",
+      "Maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "active": true
+  },
+  {
+    "id": 9068,
+    "name": "Short Sleeve Bodysuits",
+    "price": 4642,
+    "image_url": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Baby Clothing · Bodysuits · Short Sleeve.",
+    "category": "kids",
+    "subcategory": "baby",
+    "product_type": "bodysuits",
+    "variant": "Short Sleeve",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9069,
+    "name": "Long Sleeve Bodysuits",
+    "price": 4542,
+    "image_url": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Baby Clothing · Bodysuits · Long Sleeve.",
+    "category": "kids",
+    "subcategory": "baby",
+    "product_type": "bodysuits",
+    "variant": "Long Sleeve",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9070,
+    "name": "Casual Rompers",
+    "price": 1042,
+    "image_url": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Baby Clothing · Rompers · Casual.",
+    "category": "kids",
+    "subcategory": "baby",
+    "product_type": "rompers",
+    "variant": "Casual",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9071,
+    "name": "Printed Rompers",
+    "price": 992,
+    "image_url": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Baby Clothing · Rompers · Printed.",
+    "category": "kids",
+    "subcategory": "baby",
+    "product_type": "rompers",
+    "variant": "Printed",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9072,
+    "name": "Daily Wear Baby Sets",
+    "price": 2242,
+    "image_url": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Baby Clothing · Baby Sets · Daily Wear.",
+    "category": "kids",
+    "subcategory": "baby",
+    "product_type": "baby-sets",
+    "variant": "Daily Wear",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9073,
+    "name": "Gift Sets Baby Sets",
+    "price": 1992,
+    "image_url": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Baby Clothing · Baby Sets · Gift Sets.",
+    "category": "kids",
+    "subcategory": "baby",
+    "product_type": "baby-sets",
+    "variant": "Gift Sets",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9074,
+    "name": "Basic T Shirts",
+    "price": 2167,
+    "image_url": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Boys' Clothing · T Shirts · Basic.",
+    "category": "kids",
+    "subcategory": "boys",
+    "product_type": "t-shirts",
+    "variant": "Basic",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9075,
+    "name": "Printed T Shirts",
+    "price": 2117,
+    "image_url": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Boys' Clothing · T Shirts · Printed.",
+    "category": "kids",
+    "subcategory": "boys",
+    "product_type": "t-shirts",
+    "variant": "Printed",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9076,
+    "name": "Casual Shirts",
+    "price": 2167,
+    "image_url": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Boys' Clothing · Shirts · Casual.",
+    "category": "kids",
+    "subcategory": "boys",
+    "product_type": "shirts",
+    "variant": "Casual",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9077,
+    "name": "Formal Shirts",
+    "price": 1867,
+    "image_url": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Boys' Clothing · Shirts · Formal.",
+    "category": "kids",
+    "subcategory": "boys",
+    "product_type": "shirts",
+    "variant": "Formal",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9078,
+    "name": "Jeans Bottoms",
+    "price": 974,
+    "image_url": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Boys' Clothing · Bottoms · Jeans.",
+    "category": "kids",
+    "subcategory": "boys",
+    "product_type": "bottoms",
+    "variant": "Jeans",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9079,
+    "name": "Shorts Bottoms",
+    "price": 1274,
+    "image_url": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Boys' Clothing · Bottoms · Shorts.",
+    "category": "kids",
+    "subcategory": "boys",
+    "product_type": "bottoms",
+    "variant": "Shorts",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9080,
+    "name": "Joggers Bottoms",
+    "price": 974,
+    "image_url": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Boys' Clothing · Bottoms · Joggers.",
+    "category": "kids",
+    "subcategory": "boys",
+    "product_type": "bottoms",
+    "variant": "Joggers",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9081,
+    "name": "Casual Sets",
+    "price": 2242,
+    "image_url": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Boys' Clothing · Sets · Casual.",
+    "category": "kids",
+    "subcategory": "boys",
+    "product_type": "sets",
+    "variant": "Casual",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9082,
+    "name": "Party Wear Sets",
+    "price": 1942,
+    "image_url": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Boys' Clothing · Sets · Party Wear.",
+    "category": "kids",
+    "subcategory": "boys",
+    "product_type": "sets",
+    "variant": "Party Wear",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9083,
+    "name": "Frock Dresses",
+    "price": 2817,
+    "image_url": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Girls' Clothing · Dresses · Frock.",
+    "category": "kids",
+    "subcategory": "girls",
+    "product_type": "dresses",
+    "variant": "Frock",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9084,
+    "name": "Party Dress Dresses",
+    "price": 2717,
+    "image_url": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Girls' Clothing · Dresses · Party Dress.",
+    "category": "kids",
+    "subcategory": "girls",
+    "product_type": "dresses",
+    "variant": "Party Dress",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9085,
+    "name": "Maxi Dresses",
+    "price": 2617,
+    "image_url": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Girls' Clothing · Dresses · Maxi.",
+    "category": "kids",
+    "subcategory": "girls",
+    "product_type": "dresses",
+    "variant": "Maxi",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9086,
+    "name": "T-Shirts Tops",
+    "price": 1042,
+    "image_url": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Girls' Clothing · Tops · T-Shirts.",
+    "category": "kids",
+    "subcategory": "girls",
+    "product_type": "tops",
+    "variant": "T-Shirts",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9087,
+    "name": "Tops Tops",
+    "price": 992,
+    "image_url": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Girls' Clothing · Tops · Tops.",
+    "category": "kids",
+    "subcategory": "girls",
+    "product_type": "tops",
+    "variant": "Tops",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9088,
+    "name": "Jeans Bottoms",
+    "price": 974,
+    "image_url": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Girls' Clothing · Bottoms · Jeans.",
+    "category": "kids",
+    "subcategory": "girls",
+    "product_type": "bottoms",
+    "variant": "Jeans",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9089,
+    "name": "Skirts Bottoms",
+    "price": 1124,
+    "image_url": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Girls' Clothing · Bottoms · Skirts.",
+    "category": "kids",
+    "subcategory": "girls",
+    "product_type": "bottoms",
+    "variant": "Skirts",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9090,
+    "name": "Leggings Bottoms",
+    "price": 1174,
+    "image_url": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Girls' Clothing · Bottoms · Leggings.",
+    "category": "kids",
+    "subcategory": "girls",
+    "product_type": "bottoms",
+    "variant": "Leggings",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9091,
+    "name": "Lehenga Ethnic Wear",
+    "price": 1274,
+    "image_url": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Girls' Clothing · Ethnic Wear · Lehenga.",
+    "category": "kids",
+    "subcategory": "girls",
+    "product_type": "ethnic-wear",
+    "variant": "Lehenga",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9092,
+    "name": "Kurta Sets Ethnic Wear",
+    "price": 974,
+    "image_url": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Girls' Clothing · Ethnic Wear · Kurta Sets.",
+    "category": "kids",
+    "subcategory": "girls",
+    "product_type": "ethnic-wear",
+    "variant": "Kurta Sets",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9093,
+    "name": "Jackets Winter Wear",
+    "price": 1074,
+    "image_url": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Seasonal Wear · Winter Wear · Jackets.",
+    "category": "kids",
+    "subcategory": "seasonal",
+    "product_type": "winter-wear",
+    "variant": "Jackets",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9094,
+    "name": "Sweaters Winter Wear",
+    "price": 1942,
+    "image_url": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Seasonal Wear · Winter Wear · Sweaters.",
+    "category": "kids",
+    "subcategory": "seasonal",
+    "product_type": "winter-wear",
+    "variant": "Sweaters",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9095,
+    "name": "Thermals Winter Wear",
+    "price": 1942,
+    "image_url": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?w=600&h=750&fit=crop",
+    "description": "Kids' Wear · Seasonal Wear · Winter Wear · Thermals.",
+    "category": "kids",
+    "subcategory": "seasonal",
+    "product_type": "winter-wear",
+    "variant": "Thermals",
+    "colors": [
+      "Blue",
+      "Pink",
+      "Yellow"
+    ],
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "active": true
+  },
+  {
+    "id": 9096,
+    "name": "Basic T Shirts",
+    "price": 2790,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · T Shirts · Basic.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "t-shirts",
+    "variant": "Basic",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9097,
+    "name": "Oversized T Shirts",
+    "price": 2640,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · T Shirts · Oversized.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "t-shirts",
+    "variant": "Oversized",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9098,
+    "name": "Graphic T Shirts",
+    "price": 2590,
+    "image_url": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · T Shirts · Graphic.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "t-shirts",
+    "variant": "Graphic",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9099,
+    "name": "Plain T Shirts",
+    "price": 2640,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · T Shirts · Plain.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "t-shirts",
+    "variant": "Plain",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9100,
+    "name": "Pullover Hoodies",
+    "price": 3040,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · Hoodies · Pullover.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "hoodies",
+    "variant": "Pullover",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9101,
+    "name": "Zip-Up Hoodies",
+    "price": 3040,
+    "image_url": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · Hoodies · Zip-Up.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "hoodies",
+    "variant": "Zip-Up",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9102,
+    "name": "Crewneck Sweatshirts",
+    "price": 3190,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · Sweatshirts · Crewneck.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "sweatshirts",
+    "variant": "Crewneck",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9103,
+    "name": "Printed Sweatshirts",
+    "price": 3140,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · Sweatshirts · Printed.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "sweatshirts",
+    "variant": "Printed",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9104,
+    "name": "Joggers Bottoms",
+    "price": 1299,
+    "image_url": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · Bottoms · Joggers.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "bottoms",
+    "variant": "Joggers",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9105,
+    "name": "Cargo Bottoms",
+    "price": 1399,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · Bottoms · Cargo.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "bottoms",
+    "variant": "Cargo",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9106,
+    "name": "Sweatpants Bottoms",
+    "price": 1399,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · Bottoms · Sweatpants.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "bottoms",
+    "variant": "Sweatpants",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9107,
+    "name": "Shorts Bottoms",
+    "price": 1599,
+    "image_url": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · Bottoms · Shorts.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "bottoms",
+    "variant": "Shorts",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9108,
+    "name": "Bomber Jackets",
+    "price": 4690,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · Jackets · Bomber.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "jackets",
+    "variant": "Bomber",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9109,
+    "name": "Windbreaker Jackets",
+    "price": 4490,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · Jackets · Windbreaker.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "jackets",
+    "variant": "Windbreaker",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9110,
+    "name": "Puffer Jackets",
+    "price": 4490,
+    "image_url": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · Jackets · Puffer.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "jackets",
+    "variant": "Puffer",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9111,
+    "name": "Tracksuits Sets",
+    "price": 2840,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · Sets · Tracksuits.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "sets",
+    "variant": "Tracksuits",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9112,
+    "name": "Co-Ord Sets Sets",
+    "price": 2790,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Unisex Wear · Essentials · Sets · Co-Ord Sets.",
+    "category": "unisex",
+    "subcategory": "essentials",
+    "product_type": "sets",
+    "variant": "Co-Ord Sets",
+    "colors": [
+      "Black",
+      "Grey",
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9113,
+    "name": "Graphic Oversized Tees",
+    "price": 1349,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Tops · Oversized Tees · Graphic.",
+    "category": "streetwear",
+    "subcategory": "tops",
+    "product_type": "oversized-tees",
+    "variant": "Graphic",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9114,
+    "name": "Minimal Oversized Tees",
+    "price": 1449,
+    "image_url": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Tops · Oversized Tees · Minimal.",
+    "category": "streetwear",
+    "subcategory": "tops",
+    "product_type": "oversized-tees",
+    "variant": "Minimal",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9115,
+    "name": "Printed Oversized Tees",
+    "price": 1499,
+    "image_url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Tops · Oversized Tees · Printed.",
+    "category": "streetwear",
+    "subcategory": "tops",
+    "product_type": "oversized-tees",
+    "variant": "Printed",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9116,
+    "name": "Graphic Hoodies",
+    "price": 3134,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Tops · Hoodies · Graphic.",
+    "category": "streetwear",
+    "subcategory": "tops",
+    "product_type": "hoodies",
+    "variant": "Graphic",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9117,
+    "name": "Zip-Up Hoodies",
+    "price": 3184,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Tops · Hoodies · Zip-Up.",
+    "category": "streetwear",
+    "subcategory": "tops",
+    "product_type": "hoodies",
+    "variant": "Zip-Up",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9118,
+    "name": "Heavyweight Hoodies",
+    "price": 3134,
+    "image_url": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Tops · Hoodies · Heavyweight.",
+    "category": "streetwear",
+    "subcategory": "tops",
+    "product_type": "hoodies",
+    "variant": "Heavyweight",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9119,
+    "name": "Drop-Shoulder Sweatshirts",
+    "price": 3034,
+    "image_url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Tops · Sweatshirts · Drop-Shoulder.",
+    "category": "streetwear",
+    "subcategory": "tops",
+    "product_type": "sweatshirts",
+    "variant": "Drop-Shoulder",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9120,
+    "name": "Printed Sweatshirts",
+    "price": 3284,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Tops · Sweatshirts · Printed.",
+    "category": "streetwear",
+    "subcategory": "tops",
+    "product_type": "sweatshirts",
+    "variant": "Printed",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9121,
+    "name": "Baggy Jeans",
+    "price": 2089,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Bottoms · Jeans · Baggy.",
+    "category": "streetwear",
+    "subcategory": "bottoms",
+    "product_type": "jeans",
+    "variant": "Baggy",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "active": true
+  },
+  {
+    "id": 9122,
+    "name": "Wide-Leg Jeans",
+    "price": 2289,
+    "image_url": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Bottoms · Jeans · Wide-Leg.",
+    "category": "streetwear",
+    "subcategory": "bottoms",
+    "product_type": "jeans",
+    "variant": "Wide-Leg",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "active": true
+  },
+  {
+    "id": 9123,
+    "name": "Distressed Jeans",
+    "price": 2089,
+    "image_url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Bottoms · Jeans · Distressed.",
+    "category": "streetwear",
+    "subcategory": "bottoms",
+    "product_type": "jeans",
+    "variant": "Distressed",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "active": true
+  },
+  {
+    "id": 9124,
+    "name": "Parachute Cargo",
+    "price": 2454,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Bottoms · Cargo · Parachute.",
+    "category": "streetwear",
+    "subcategory": "bottoms",
+    "product_type": "cargo",
+    "variant": "Parachute",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9125,
+    "name": "Utility Cargo",
+    "price": 2404,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Bottoms · Cargo · Utility.",
+    "category": "streetwear",
+    "subcategory": "bottoms",
+    "product_type": "cargo",
+    "variant": "Utility",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9126,
+    "name": "Relaxed Fit Cargo",
+    "price": 2554,
+    "image_url": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Bottoms · Cargo · Relaxed Fit.",
+    "category": "streetwear",
+    "subcategory": "bottoms",
+    "product_type": "cargo",
+    "variant": "Relaxed Fit",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9127,
+    "name": "Techwear Pants",
+    "price": 2509,
+    "image_url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Bottoms · Pants · Techwear.",
+    "category": "streetwear",
+    "subcategory": "bottoms",
+    "product_type": "pants",
+    "variant": "Techwear",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9128,
+    "name": "Joggers Pants",
+    "price": 2509,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=750&fit=crop",
+    "description": "Streetwear · Streetwear Bottoms · Pants · Joggers.",
+    "category": "streetwear",
+    "subcategory": "bottoms",
+    "product_type": "pants",
+    "variant": "Joggers",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9129,
+    "name": "Varsity Jackets",
+    "price": 4964,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Streetwear · Outerwear & Accessories · Jackets · Varsity.",
+    "category": "streetwear",
+    "subcategory": "outer-accessories",
+    "product_type": "jackets",
+    "variant": "Varsity",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9130,
+    "name": "Bomber Jackets",
+    "price": 4914,
+    "image_url": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&h=750&fit=crop",
+    "description": "Streetwear · Outerwear & Accessories · Jackets · Bomber.",
+    "category": "streetwear",
+    "subcategory": "outer-accessories",
+    "product_type": "jackets",
+    "variant": "Bomber",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9131,
+    "name": "Denim Jackets",
+    "price": 4864,
+    "image_url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&h=750&fit=crop",
+    "description": "Streetwear · Outerwear & Accessories · Jackets · Denim.",
+    "category": "streetwear",
+    "subcategory": "outer-accessories",
+    "product_type": "jackets",
+    "variant": "Denim",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9132,
+    "name": "Snapback Caps",
+    "price": 1184,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=750&fit=crop",
+    "description": "Streetwear · Outerwear & Accessories · Caps · Snapback.",
+    "category": "streetwear",
+    "subcategory": "outer-accessories",
+    "product_type": "caps",
+    "variant": "Snapback",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9133,
+    "name": "Baseball Cap Caps",
+    "price": 1234,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Streetwear · Outerwear & Accessories · Caps · Baseball Cap.",
+    "category": "streetwear",
+    "subcategory": "outer-accessories",
+    "product_type": "caps",
+    "variant": "Baseball Cap",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9134,
+    "name": "Bucket Hat Hats",
+    "price": 1234,
+    "image_url": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&h=750&fit=crop",
+    "description": "Streetwear · Outerwear & Accessories · Hats · Bucket Hat.",
+    "category": "streetwear",
+    "subcategory": "outer-accessories",
+    "product_type": "hats",
+    "variant": "Bucket Hat",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9135,
+    "name": "Beanie Hats",
+    "price": 1234,
+    "image_url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&h=750&fit=crop",
+    "description": "Streetwear · Outerwear & Accessories · Hats · Beanie.",
+    "category": "streetwear",
+    "subcategory": "outer-accessories",
+    "product_type": "hats",
+    "variant": "Beanie",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9136,
+    "name": "Crossbody Bags",
+    "price": 1984,
+    "image_url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=750&fit=crop",
+    "description": "Streetwear · Outerwear & Accessories · Bags · Crossbody.",
+    "category": "streetwear",
+    "subcategory": "outer-accessories",
+    "product_type": "bags",
+    "variant": "Crossbody",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9137,
+    "name": "Sling Bag Bags",
+    "price": 2084,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&h=750&fit=crop",
+    "description": "Streetwear · Outerwear & Accessories · Bags · Sling Bag.",
+    "category": "streetwear",
+    "subcategory": "outer-accessories",
+    "product_type": "bags",
+    "variant": "Sling Bag",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  },
+  {
+    "id": 9138,
+    "name": "Backpacks Bags",
+    "price": 2134,
+    "image_url": "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=600&h=750&fit=crop",
+    "description": "Streetwear · Outerwear & Accessories · Bags · Backpacks.",
+    "category": "streetwear",
+    "subcategory": "outer-accessories",
+    "product_type": "bags",
+    "variant": "Backpacks",
+    "colors": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "active": true
+  }
+]

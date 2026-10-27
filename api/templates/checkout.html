@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Checkout — {{ brand_name }}{% endblock %}
+{% block content %}
+<div class="container" id="checkout-root">
+  <h1 class="section-title" style="text-align:left;padding-top:2rem;">Checkout</h1>
+  <div class="note-box">This is an <strong>order request</strong>. No online payment. We confirm by phone/WhatsApp.</div>
+  <div class="checkout-grid">
+    <form id="checkout-form">
+      <h2 style="margin-bottom:1rem;font-size:1.15rem;">Delivery details</h2>
+      <div class="form-group"><label for="c-name">Full name *</label><input id="c-name" required maxlength="150"></div>
+      <div class="form-group"><label for="c-email">Email *</label><input id="c-email" type="email" required maxlength="200"></div>
+      <div class="form-group"><label for="c-phone">Phone *</label><input id="c-phone" type="tel" required maxlength="40"></div>
+      <div class="form-group"><label for="c-address">Address *</label><textarea id="c-address" required maxlength="500" rows="3"></textarea></div>
+      <div class="form-group"><label for="c-city">City *</label><input id="c-city" required maxlength="100"></div>
+      <div class="form-group"><label for="c-notes">Notes</label><textarea id="c-notes" maxlength="1000" rows="2"></textarea></div>
+      <button type="submit" class="btn btn-primary" id="place-order">Place order request</button>
+    </form>
+    <aside class="order-summary">
+      <h2 style="margin-bottom:1rem;font-size:1.15rem;">Summary</h2>
+      <div id="order-summary-items"></div>
+      <div class="summary-total"><span>Total</span><span id="order-total">NPR 0</span></div>
+    </aside>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="/js/checkout.js?v=4"></script>
+{% endblock %}

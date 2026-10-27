@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}{{ brand_name }} — Premium Fashion{% endblock %}
+{% block content %}
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-content container">
+    <span class="hero-eyebrow">New Season</span>
+    <h1 class="display">Dress the moment.<br>Own the street.</h1>
+    <p>Premium menswear, womenswear, dress &amp; accessories.</p>
+    <div class="hero-actions">
+      <a href="/shop" class="btn btn-primary">Shop collection</a>
+      <a href="/shop?cat=dress" class="btn btn-outline" style="border-color:rgba(255,255,255,0.5);color:#fff;">Dress</a>
+    </div>
+  </div>
+</section>
+
+<section class="section container">
+  <h2 class="section-title">Shop by category</h2>
+  <div class="cat-grid">
+    <a href="/shop?cat=men" class="cat-card"><img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?w=500&h=650&fit=crop" alt="Men" loading="lazy"><span class="cat-label">Men's Wear</span></a>
+    <a href="/shop?cat=women" class="cat-card"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=500&h=650&fit=crop" alt="Women" loading="lazy"><span class="cat-label">Women's Wear</span></a>
+    <a href="/shop?cat=kids" class="cat-card"><img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=500&h=650&fit=crop" alt="Kids" loading="lazy"><span class="cat-label">Kids</span></a>
+    <a href="/shop?cat=streetwear" class="cat-card"><img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&h=650&fit=crop" alt="Streetwear" loading="lazy"><span class="cat-label">Streetwear</span></a>
+  </div>
+</section>
+
+<section class="section container">
+  <h2 class="section-title">New arrivals</h2>
+  <div class="product-grid">
+    {% for p in products[:8] %}
+    <article class="product-card">
+      <div class="product-img-wrap">
+        <a href="/product?id={{ p.id }}"><img src="{{ p.image_url or '/assets/fallback-product.svg' }}" alt="{{ p.name }}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='/assets/fallback-product.svg'"></a>
+      </div>
+      <div class="product-info">
+        <div class="product-cat">{{ p.category_path or p.category }}</div>
+        <a href="/product?id={{ p.id }}" class="product-name">{{ p.name }}</a>
+        <div class="product-price">NPR {{ "{:,}".format(p.price) }}</div>
+        <button type="button" class="btn btn-sm btn-primary mt-4" data-add-cart data-id="{{ p.id }}" data-name="{{ p.name }}" data-price="{{ p.price }}" data-img="{{ p.image_url or '' }}">Add to cart</button>
+      </div>
+    </article>
+    {% else %}
+    <p class="text-center" style="grid-column:1/-1;color:var(--color-muted);">No products yet. Add some from the admin panel.</p>
+    {% endfor %}
+  </div>
+  <p class="text-center mt-4"><a href="/shop" class="btn btn-outline">View all</a></p>
+</section>
+
+<section class="promo-band">
+  <div class="container">
+    <h2>Free delivery over NPR 5,000</h2>
+    <p>Order request confirmed by our team. Quality pieces, delivered across Nepal.</p>
+    <a href="/shop" class="btn" style="background:#fff;color:var(--color-accent);">Explore now</a>
+  </div>
+</section>
+{% endblock %}

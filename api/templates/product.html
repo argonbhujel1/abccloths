@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block title %}{{ product.name if product else 'Product' }} — {{ brand_name }}{% endblock %}
+{% block content %}
+{% if not product %}
+<div class="container section text-center"><p>Product not found. <a href="/shop">Back to shop</a></p></div>
+{% else %}
+<div class="pdp container">
+  <div class="pdp-gallery">
+    <img src="{{ product.image_url or '/assets/fallback-product.svg' }}" alt="{{ product.name }}" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='/assets/fallback-product.svg'">
+  </div>
+  <div class="pdp-info">
+    <div class="product-cat">{{ product.category_path or product.category }}</div>
+    <h1>{{ product.name }}</h1>
+    <div class="pdp-price">NPR {{ "{:,}".format(product.price) }}</div>
+    <p class="pdp-desc">{{ product.description }}</p>
+    {% if product.colors %}
+    <label style="font-weight:600;font-size:0.85rem;">Color</label>
+    <div class="swatches" id="pdp-colors">
+      {% for c in product.colors %}
+      <button type="button" class="swatch {% if loop.first %}active{% endif %}" data-color="{{ c }}">{{ c }}</button>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if product.sizes %}
+    <label style="font-weight:600;font-size:0.85rem;">Size</label>
+    <div class="size-grid" id="pdp-sizes">
+      {% for s in product.sizes %}
+      <button type="button" class="size-btn {% if loop.first %}active{% endif %}" data-size="{{ s }}">{{ s }}</button>
+      {% endfor %}
+    </div>
+    {% endif %}
+    <div class="qty-row">
+      <button type="button" class="qty-btn" id="qty-dec">−</button>
+      <span class="qty-val" id="qty-val">1</span>
+      <button type="button" class="qty-btn" id="qty-inc">+</button>
+    </div>
+    <button type="button" class="btn btn-primary" id="add-cart-btn"
+      data-id="{{ product.id }}" data-name="{{ product.name }}" data-price="{{ product.price }}" data-img="{{ product.image_url or '' }}">Add to cart</button>
+  </div>
+</div>
+{% if related %}
+<div class="container section">
+  <h2 class="section-title">You may also like</h2>
+  <div class="product-grid">
+    {% for p in related %}
+    <article class="product-card">
+      <div class="product-img-wrap"><a href="/product?id={{ p.id }}"><img src="{{ p.image_url or '/assets/fallback-product.svg' }}" alt="{{ p.name }}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='/assets/fallback-product.svg'"></a></div>
+      <div class="product-info">
+        <a href="/product?id={{ p.id }}" class="product-name">{{ p.name }}</a>
+        <div class="product-price">NPR {{ "{:,}".format(p.price) }}</div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+{% endif %}
+{% endblock %}
+{% block scripts %}
+<script>
+(function(){
+  var qty=1, qv=document.getElementById('qty-val');
+  document.getElementById('qty-dec')&&document.getElementById('qty-dec').addEventListener('click',function(){qty=Math.max(1,qty-1);qv.textContent=qty;});
+  document.getElementById('qty-inc')&&document.getElementById('qty-inc').addEventListener('click',function(){qty=Math.min(20,qty+1);qv.textContent=qty;});
+  document.querySelectorAll('#pdp-colors .swatch').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('#pdp-colors .swatch').forEach(function(x){x.classList.remove('active')});b.classList.add('active');});});
+  document.querySelectorAll('#pdp-sizes .size-btn').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('#pdp-sizes .size-btn').forEach(function(x){x.classList.remove('active')});b.classList.add('active');});});
+  var btn=document.getElementById('add-cart-btn');
+  if(btn) btn.addEventListener('click',function(){
+    var color=(document.querySelector('#pdp-colors .swatch.active')||{}).dataset||{};
+    var size=(document.querySelector('#pdp-sizes .size-btn.active')||{}).dataset||{};
+    ABC_Cart.add({id:+btn.dataset.id,name:btn.dataset.name,price:+btn.dataset.price,image_url:btn.dataset.img},{color:color.color||'',size:size.size||'',quantity:qty});
+    if(window.ABC_toast) ABC_toast(btn.dataset.name+' added');
+    document.getElementById('cart-btn')&&document.getElementById('cart-btn').click();
+  });
+})();
+</script>
+{% endblock %}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500">
+  <rect fill="#e8e4db" width="400" height="500"/>
+  <text x="200" y="250" text-anchor="middle" fill="#9a958c" font-family="system-ui,sans-serif" font-size="18">ABC Clothing</text>
+  <text x="200" y="280" text-anchor="middle" fill="#b0aba3" font-family="system-ui,sans-serif" font-size="13">Image unavailable</text>
+</svg>

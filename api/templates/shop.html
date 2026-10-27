@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}Shop — {{ brand_name }}{% endblock %}
+{% block content %}
+{% if not cat or cat == 'all' %}
+{# STEP 1 #}
+<div class="shop-chooser">
+  <h1>Which class of dress are you looking for?</h1>
+  <p class="sub">Step 1 of 3 — pick a category</p>
+  <div class="chooser-grid">
+    <a class="chooser-card" href="/shop?cat=men"><strong>Men's Wear</strong><span>पुरुषका कपडा</span></a>
+    <a class="chooser-card" href="/shop?cat=women"><strong>Women's Wear</strong><span>महिलाका कपडा</span></a>
+    <a class="chooser-card" href="/shop?cat=kids"><strong>Kids' Wear</strong><span>बालबालिकाका कपडा</span></a>
+    <a class="chooser-card" href="/shop?cat=unisex"><strong>Unisex Wear</strong><span>सबैले लगाउन मिल्ने</span></a>
+    <a class="chooser-card" href="/shop?cat=streetwear"><strong>Streetwear</strong><span>Urban / Trendy</span></a>
+  </div>
+</div>
+{% elif not type_slug %}
+{# STEP 2 #}
+<div class="shop-chooser">
+  <p style="margin-bottom:0.75rem"><a href="/shop" style="color:var(--color-accent);text-decoration:none">← All classes</a></p>
+  <h1>Which type inside {{ cat_label }}?</h1>
+  <p class="sub">Step 2 of 3 — pick a style</p>
+  <div class="chooser-grid">
+    {% for t in type_chips %}
+    <a class="chooser-card" href="/shop?cat={{ cat }}&type={{ t.slug }}">
+      <strong>{{ t.label }}</strong>
+      <span>{{ t.count }} product{{ 's' if t.count != 1 else '' }}</span>
+    </a>
+    {% else %}
+    <p style="grid-column:1/-1;color:var(--color-muted)">No types in this class yet.</p>
+    {% endfor %}
+  </div>
+</div>
+{% else %}
+{# STEP 3 #}
+<div class="container section">
+  <p style="margin-bottom:0.5rem">
+    <a href="/shop" style="color:var(--color-accent);text-decoration:none">Classes</a>
+    <span style="opacity:0.5"> / </span>
+    <a href="/shop?cat={{ cat }}" style="color:var(--color-accent);text-decoration:none">{{ cat_label }}</a>
+    <span style="opacity:0.5"> / </span>
+    <span>{{ type_label }}</span>
+  </p>
+  <h1 class="section-title" style="text-align:left;margin-bottom:0.35rem;">{{ type_label }}</h1>
+  <p style="color:var(--color-muted);margin-bottom:1.5rem;">Step 3 — {{ products|length }} product{{ 's' if products|length != 1 else '' }}</p>
+  <div class="product-grid">
+    {% for p in products %}
+    <article class="product-card">
+      <div class="product-img-wrap">
+        <a href="/product?id={{ p.id }}"><img src="{{ p.image_url or '/assets/fallback-product.svg' }}" alt="{{ p.name }}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='/assets/fallback-product.svg'"></a>
+      </div>
+      <div class="product-info">
+        <div class="product-cat">{{ p.category_path or p.category }}</div>
+        <a href="/product?id={{ p.id }}" class="product-name">{{ p.name }}</a>
+        <div class="product-price">NPR {{ "{:,}".format(p.price) }}</div>
+        <button type="button" class="btn btn-sm btn-primary mt-4" data-add-cart data-id="{{ p.id }}" data-name="{{ p.name }}" data-price="{{ p.price }}" data-img="{{ p.image_url or '' }}">Add to cart</button>
+      </div>
+    </article>
+    {% else %}
+    <p class="text-center" style="grid-column:1/-1;padding:3rem;color:var(--color-muted);">No products here yet.</p>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+{% endblock %}

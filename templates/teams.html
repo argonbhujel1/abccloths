@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block title %}Teams — {{ brand_name }}{% endblock %}
+{% block content %}
+<div class="container section">
+  <h1 class="section-title" style="text-align:left;">Our teams</h1>
+
+  {% if section != 'owners' %}
+  <h2 class="team-section-title">Site developer team</h2>
+  <div class="team-grid">
+    {% for m in developers %}
+    {% if m.enabled %}
+    <article class="team-card">
+      <img src="{{ m.photo_url or '/assets/default-logo.svg' }}" alt="{{ m.name }}" onerror="this.src='/assets/default-logo.svg'">
+      <h3>{{ m.name }}</h3>
+      <p class="role">{{ m.role }}</p>
+    </article>
+    {% endif %}
+    {% else %}
+    <p style="color:var(--color-muted)">No developers listed.</p>
+    {% endfor %}
+  </div>
+
+  <div class="card" style="max-width:520px;margin:2.5rem auto 0;padding:1.5rem;">
+    <h2 style="font-family:var(--font-display);font-size:1.35rem;margin-bottom:0.35rem;">Contact developer</h2>
+    <p style="font-size:0.9rem;color:var(--color-muted);margin-bottom:1.25rem;">
+      Message the site development team. We’ll get back to you by email.
+    </p>
+    <form id="dev-contact-form">
+      <div class="form-group"><label for="dc-name">Your name *</label><input id="dc-name" required maxlength="150"></div>
+      <div class="form-group"><label for="dc-email">Your email *</label><input id="dc-email" type="email" required maxlength="200"></div>
+      <div class="form-group"><label for="dc-phone">Phone</label><input id="dc-phone" type="tel" maxlength="40"></div>
+      <div class="form-group"><label for="dc-message">Message *</label><textarea id="dc-message" required maxlength="3000" rows="5" placeholder="Project idea, bug report, collaboration…"></textarea></div>
+      <button type="submit" class="btn btn-primary" id="dc-submit">Send to developer</button>
+    </form>
+  </div>
+  {% endif %}
+
+  {% if section != 'developers' %}
+  <h2 class="team-section-title">Owner team</h2>
+  <div class="team-grid">
+    {% for m in owners %}
+    {% if m.enabled %}
+    <article class="team-card">
+      <img src="{{ m.photo_url or '/assets/default-logo.svg' }}" alt="{{ m.name }}" onerror="this.src='/assets/default-logo.svg'">
+      <h3>{{ m.name }}</h3>
+      <p class="role">{{ m.role }}</p>
+      {% if m.bio %}<p style="font-size:0.85rem;margin-top:0.5rem;opacity:0.85">{{ m.bio }}</p>{% endif %}
+    </article>
+    {% endif %}
+    {% else %}
+    <p style="color:var(--color-muted)">Owner team coming soon.</p>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+(function(){
+  var form = document.getElementById("dev-contact-form");
+  if (!form) return;
+  form.addEventListener("submit", async function(e){
+    e.preventDefault();
+    var btn = document.getElementById("dc-submit");
+    if (window.ABC_busy) ABC_busy(btn, true); else { btn.disabled = true; btn.textContent = "Sending…"; }
+    try {
+      var res = await fetch("/api/contact-developer", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: document.getElementById("dc-name").value.trim(),
+          email: document.getElementById("dc-email").value.trim(),
+          phone: document.getElementById("dc-phone").value.trim(),
+          message: document.getElementById("dc-message").value.trim()
+        })
+      });
+      var data = await res.json();
+      if (res.ok) {
+        form.parentElement.innerHTML = '<div class="success-burst"><div class="burst-icon">✉</div><h2 style="font-family:var(--font-display)">Message sent</h2><p style="color:var(--color-muted)">' + (data.message || "The developer team will reply soon.") + '</p></div>';
+      } else {
+        if (window.ABC_toast) ABC_toast(data.error || "Failed", true);
+        if (window.ABC_busy) ABC_busy(btn, false); else { btn.disabled = false; btn.textContent = "Send to developer"; }
+      }
+    } catch (err) {
+      if (window.ABC_toast) ABC_toast("Network error", true);
+      if (window.ABC_busy) ABC_busy(btn, false); else { btn.disabled = false; btn.textContent = "Send to developer"; }
+    }
+  });
+})();
+</script>
+{% endblock %}
